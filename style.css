@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 95%;
+    margin: 0 auto;
+}
+nav{
+    text-align: center;
+    height: 64px;
+    padding-top: 20px;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    width: 20%;
+    background-color: darkgray;
+    padding: 5px;
+    border: 1px solid white;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.banner{
+    background-color: aliceblue;
+    height: 600px;
+    text-align: center;
+    padding-top: 200px;
+
+    background-image: url("images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.banner h1 {
+    color: red;
+    font-size: 40px;
+    letter-spacing: 2px;
+    
+    text-shadow: 2px 2px 4px white;
+}
+.main{
+    height: 1300px;
+    background-color: gray;
+    padding: 24px;
+}
+
+.video{
+    width: 600px;
+    height: 240px;
+    margin: 0 auto;
+    border: 5px solid white;
+
+}
+.video iframe{
+    height: 100%;
+    width: 100%;
+}
+
+.intro{
+    width: 75%;
+    background-color: bisque;
+    margin: 0 auto;
+    padding: 25px;
+    margin-top: 25px;
+
+    font-weight: bold;
+    text-align: justify;
+    border-radius: 30px;
+    border: 2px solid aliceblue;
+
+
+    
+}
+.capital {
+    color: burlywood;
+    font-size: 24px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+.profile{
+    
+    background-color: bisque;
+    width: 250px;
+    height: 500px;
+    display: inline-block;
+    border: solid 5px white;
+    margin: 15px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 25px;
+
+}
+.profile img{
+    width: 100%;
+}
